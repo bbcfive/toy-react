@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    main: './main.js'
+    main: './tic-tac-toe.js'
   },
   mode: 'development',
   module: {

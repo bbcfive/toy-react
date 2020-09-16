@@ -70,7 +70,7 @@ export class Component {
     }
 
     let merge = (oldState, newState) => {
-      for(let p in oldState) {
+      for(let p in newState) {
         if (oldState[p] === null || typeof oldState[p] !== "object") {
           oldState[p] = newState[p];
         } else {
